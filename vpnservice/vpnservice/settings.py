@@ -31,7 +31,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
-    'mainservice.apps.MainserviceConfig',
+    'user_profiles',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -126,4 +126,4 @@ STATIC_URL = 'static/'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 # Use the build-in User model
-AUTH_USER_MODEL = 'auth.User'
+AUTH_USER_MODEL = 'user_profiles.CustomUser'

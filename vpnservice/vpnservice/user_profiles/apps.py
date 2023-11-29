@@ -1,6 +1,6 @@
 from django.apps import AppConfig
 
 
-class MainserviceConfig(AppConfig):
+class UserProfilesConfig(AppConfig):
     default_auto_field = 'django.db.models.BigAutoField'
-    name = 'mainservice'
+    name = 'user_profiles'
